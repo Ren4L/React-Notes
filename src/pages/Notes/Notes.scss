@@ -1,0 +1,18 @@
+body::-webkit-scrollbar{display: none}
+.Menu{
+  overflow-y: scroll;
+  height: calc(99% - 20px);
+  &::-webkit-scrollbar{display: none}
+}
+
+.Search{
+  margin-bottom: 20px;
+}
+
+.CodeMirror{
+  height: 74vh !important;
+}
+
+.deActive{
+  display: none;
+}
